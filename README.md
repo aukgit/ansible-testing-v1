@@ -16,3 +16,9 @@ ansible-testing
 
 - powershell `./run.bat`
 - cmd `run.bat`
+
+### Run using makefile
+
+`make run-{chapter}-{os}`
+For example, chapter 00, windows:
+`make run-00-win` -> Will run `00. Install Ansible\makefile` with defaultTask
