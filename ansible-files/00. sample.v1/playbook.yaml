@@ -2,4 +2,4 @@
   hosts: ubuntu_servers
   tasks:
     - name: try ping
-      ping:
+      ping: 
