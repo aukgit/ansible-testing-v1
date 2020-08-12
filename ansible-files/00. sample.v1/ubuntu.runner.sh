@@ -1,1 +1,1 @@
-ansible-playbook playbook.yaml -i inventory.txtd
+ansible-playbook playbook.yaml -i inventory.txt
