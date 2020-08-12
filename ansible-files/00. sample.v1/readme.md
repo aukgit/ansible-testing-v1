@@ -1,5 +1,12 @@
 # Sample v1
 
-run
+## Run Code
 
-`sh ./ubuntu.runner.sh`
+### Ubuntu / Linux / Mac
+
+- `sh ./run.sh`
+
+### Windows
+
+- powershell `./run.bat`
+- cmd `run.bat`

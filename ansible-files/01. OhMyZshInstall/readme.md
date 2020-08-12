@@ -1,10 +1,6 @@
-# ansible-testing
+# Zsh-Oh-MyZSH using Ansible
 
-ansible-testing
-
-## Clone
-
-`git clone https://github.com/aukgit/ansible-testing-v1`
+## Guide
 
 ## Run Code
 

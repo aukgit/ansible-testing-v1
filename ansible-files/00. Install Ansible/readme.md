@@ -1,10 +1,4 @@
-# ansible-testing
-
-ansible-testing
-
-## Clone
-
-`git clone https://github.com/aukgit/ansible-testing-v1`
+# Sample v1
 
 ## Run Code
 
