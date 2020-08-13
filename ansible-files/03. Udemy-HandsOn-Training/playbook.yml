@@ -1,8 +1,11 @@
 - name: Deploy a web application
   hosts: ubuntu_servers
   tasks:
+    - name: Ping test
+      ping: 
+
     - name: Install Python required dependencies
-      apt: name={{ item }} state=installed
+      apt: name={{ item }} state=present force=yes update_cache=yes
       with_items:
         - python
         - python-setuptools
@@ -11,7 +14,7 @@
         - python-pip
 
     - name: Install MySQL required dependencies
-      apt: name={{ item }} state=installed
+      apt: name={{ item }} state=present force=yes update_cache=yes
       with_items:
         - mysql-server
         - mysql-client
