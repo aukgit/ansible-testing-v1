@@ -4,17 +4,21 @@
     - name: Ping test
       ping: 
 
-    - name: Install Python required dependencies
-      apt: name={{ item }} state=present force=yes update_cache=yes
+    - name: Install Python (setup tools, build essential, pip, git) required dependencies
+      become: true
+      become_method: sudo
+      apt: name={{ item }} state=present force=yes
       with_items:
         - python
         - python-setuptools
         - python-dev
-        - build-essentials
-        - python-pip
+        - build-essential
+        - git
 
     - name: Install MySQL required dependencies
-      apt: name={{ item }} state=present force=yes update_cache=yes
+      become: true
+      become_method: sudo
+      apt: name={{ item }} state=present force=yes
       with_items:
         - mysql-server
         - mysql-client
@@ -43,3 +47,5 @@
       with_items:
         - flask
         - flask-mysql
+    - name: Update Cache
+      action: apt update_cache=true
