@@ -40,4 +40,3 @@
       with_items:
         - flask
         - flask-mysql
-    
