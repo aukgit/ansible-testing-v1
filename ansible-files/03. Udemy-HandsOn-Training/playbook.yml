@@ -1,0 +1,43 @@
+- name: Deploy a web application
+  hosts: ubuntu_servers
+  tasks:
+    - name: Install Python required dependencies
+      apt: name={{ item }} state=installed
+      with_items:
+        - python
+        - python-setuptools
+        - python-dev
+        - build-essentials
+        - python-pip
+
+    - name: Install MySQL required dependencies
+      apt: name={{ item }} state=installed
+      with_items:
+        - mysql-server
+        - mysql-client
+    
+    - name: Start MySQL Service
+      service:
+        name: mysql
+        state: started
+        enabled: yes # on restart service will be started automatically.
+
+    - name: Create Application Database
+      mysql_db: name=employee_db state=present #present means???
+
+    - name: Create Application Database user
+      mysql_user:
+        name: db_user
+        password: a
+        priv: '*.*:ALL'
+        state: present
+        host: '%'
+
+    - name: Install Python Flask dependencies
+      pip: 
+        name: {{ item }} 
+        state: present
+      with_items:
+        - flask
+        - flask-mysql
+    
