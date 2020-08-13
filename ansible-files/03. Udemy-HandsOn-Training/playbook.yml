@@ -4,6 +4,10 @@
     - name: Ping test
       ping: 
 
+    - name: apt clean
+      apt: 
+        autoclean: yes
+
     - name: Install Python (setup tools, build essential, pip, git) required dependencies
       # become: true
       # become_method: sudo
