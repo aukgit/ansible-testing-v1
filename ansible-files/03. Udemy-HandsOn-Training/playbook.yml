@@ -7,6 +7,9 @@
     - name: apt clean
       apt: 
         autoclean: yes
+    
+    - name: auto remove package Install
+      apt: apt-get autoremove
 
     - name: Install Python (setup tools, build essential, pip, git) required dependencies
       # become: true
@@ -51,5 +54,6 @@
       with_items:
         - flask
         - flask-mysql
-    - name: Update Cache
-      action: apt update_cache=true
+
+    - name: Update apt-get repo and cache
+      apt: update_cache=yes force_apt_get=yes cache_valid_time=3600
