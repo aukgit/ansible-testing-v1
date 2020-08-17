@@ -4,13 +4,6 @@
     - name: Ping test
       ping: 
 
-    - name: apt clean
-      apt: 
-        autoclean: yes
-    
-    - name: auto remove package Install
-      apt: apt-get autoremove
-
     - name: Install Python (setup tools, build essential, pip, git) required dependencies
       # become: true
       # become_method: sudo

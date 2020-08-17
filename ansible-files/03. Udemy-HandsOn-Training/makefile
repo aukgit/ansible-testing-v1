@@ -1,5 +1,5 @@
 run:
-	ansible-playbook playbook.yml -i inventory.txt --ask-sudo-pass
+	ansible-playbook playbook.yml -i inventory.txt
 
 default-task-win:
 	make run
