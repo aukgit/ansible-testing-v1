@@ -18,8 +18,9 @@ Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: 
 * [Sudoers - Ansible: create a user with sudo privileges - Stack Overflow](https://stackoverflow.com/questions/37333305/ansible-create-a-user-with-sudo-privileges)
 * [Passwordless user - python - Ansible: best practice for maintaining list of sudoers - Stack Overflow](https://stackoverflow.com/questions/33359404/ansible-best-practice-for-maintaining-list-of-sudoers)
 * [apt – Manages apt-packages — Ansible Documentation](https://docs.ansible.com/ansible/latest/modules/apt_module.html)
+* How to fix ansible loop issues with items : <https://github.com/geerlingguy/ansible-role-docker/issues/77> | <https://github.com/geerlingguy/ansible-role-docker/issues/77#issuecomment-433578218>
 
-## CentOS Using
+## CentOS Using (not good)
 
 * [CentOS Virtual Machine Images for VMware & VirtualBox](https://www.osboxes.org/centos/#centos-822004-vbox)
 

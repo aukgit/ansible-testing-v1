@@ -32,3 +32,7 @@ Will run make file run in the [Linux Setup folder](/linux-setups)
 `make git-clean-get`
 
 Will get all new pulls from git cleanly.
+
+## Reference Links
+
+- How to fix ansible loop issues with items : <https://github.com/geerlingguy/ansible-role-docker/issues/77> | <https://github.com/geerlingguy/ansible-role-docker/issues/77#issuecomment-433578218>
