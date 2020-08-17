@@ -8,7 +8,7 @@ yum-get install build-essential libssl-dev
 sudo yum install zsh
 pwd
 yes | cp -rf .zshrc ~/.zshrc
-sudo apt update
+sudo yum update
 source ~/.zshrc
 cat ~/.zshrc
 chsh -s `which zsh`
