@@ -15,5 +15,8 @@ yes | cp -rf .zshrc ~/.zshrc
 sudo apt update
 source ~/.zshrc
 cat ~/.zshrc
+chsh -s $(which zsh)
+sudo chsh -s $(which zsh)
+read -s -n 1 -p "Press any key to reboot the OS . . ."
 sudo reboot
 
