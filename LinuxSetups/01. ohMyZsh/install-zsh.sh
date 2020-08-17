@@ -17,3 +17,4 @@ source ~/.zshrc
 
 cat ~/.zshrc
 sudo reboot
+
