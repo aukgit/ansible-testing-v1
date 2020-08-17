@@ -61,3 +61,4 @@ run-cent-01:
 
 install-ssh-pass-linux:
 	sudo apt-get install sshpass
+	sudo apt update
