@@ -1,5 +1,5 @@
 run:
-	sudo sh ./install-zsh.sh
+	yes | sudo sh ./install-zsh.sh
 
 clean-get:
 	cd .. && cd .. && make git-clean-get
