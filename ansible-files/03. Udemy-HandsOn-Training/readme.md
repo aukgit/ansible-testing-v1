@@ -19,7 +19,6 @@ Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: 
 * [Passwordless user - python - Ansible: best practice for maintaining list of sudoers - Stack Overflow](https://stackoverflow.com/questions/33359404/ansible-best-practice-for-maintaining-list-of-sudoers)
 * [apt – Manages apt-packages — Ansible Documentation](https://docs.ansible.com/ansible/latest/modules/apt_module.html)
 
-
 ## CentOS Using
 
 * [CentOS Virtual Machine Images for VMware & VirtualBox](https://www.osboxes.org/centos/#centos-822004-vbox)
