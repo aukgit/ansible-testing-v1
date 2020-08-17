@@ -6,7 +6,8 @@ sudo yum update
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 yum-get install build-essential libssl-dev
 sudo yum install zsh
-yes | cp -f .zshrc ~/.zshrc
+pwd
+yes | cp -rf .zshrc ~/.zshrc
 sudo apt update
 source ~/.zshrc
 cat ~/.zshrc
