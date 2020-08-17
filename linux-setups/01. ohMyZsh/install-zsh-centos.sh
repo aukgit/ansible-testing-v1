@@ -1,7 +1,7 @@
 sudo yum-get install fonts-powerline
 sudo yum install net-tools
-sudo install wget
-sudo install curl
+sudo yum install wget
+sudo yum install curl
 sudo yum update
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 yum-get install build-essential libssl-dev
