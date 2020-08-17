@@ -56,3 +56,6 @@ run-03-linux:
 
 run-linux-01:
 	cd $(LChapter01) && make run
+
+run-cent-01:
+	cd $(LChapter01) && make run-centos
