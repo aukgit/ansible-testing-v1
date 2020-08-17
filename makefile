@@ -58,3 +58,6 @@ run-linux-01:
 
 run-cent-01:
 	cd $(LChapter01) && make run-centos
+
+install-ssh-pass-linux:
+	sudo apt-get install sshpass
