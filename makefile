@@ -13,7 +13,7 @@ Chapter01 = "$(Asible)/01. sample.v1"
 Chapter02 = "$(Asible)/02. OhMyZshInstall"
 Chapter03 = "$(Asible)/03. Udemy-HandsOn-Training"
 
-LChapter01 = "$(Asible)/03. Udemy-HandsOn-Training"
+LChapter01 = "$(Linux)/01. ohMyZsh"
 
 run-00-win:
 	cd $(Chapter00) && make default-task-win
@@ -54,5 +54,5 @@ run-03-linux:
 	cd $(Chapter03) && make default-task-linux
 
 
-run-linux-00:
-	cd $(LChapter03) && make run
+run-linux-01:
+	cd $(LChapter01) && make run
