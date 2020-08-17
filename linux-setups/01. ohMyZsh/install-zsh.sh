@@ -21,6 +21,5 @@ sudo apt update
 source ~/.zshrc
 cat ~/.zshrc
 chsh -s `which zsh`
-read -s -n 1 -p "Press any key to reboot the OS . . ."
+read -n 1 -p "Press any key to reboot the OS . . ."
 sudo reboot
-
