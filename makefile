@@ -7,10 +7,13 @@ git-clean-get:
 #  Make file variable : https://bit.ly/2FdgfYJ | https://bit.ly/3akNxRk
 
 Asible = "ansible-files"
+Linux = "linux-setups"
 Chapter00 = "$(Asible)/00. Install Ansible"
 Chapter01 = "$(Asible)/01. sample.v1"
 Chapter02 = "$(Asible)/02. OhMyZshInstall"
 Chapter03 = "$(Asible)/03. Udemy-HandsOn-Training"
+
+LChapter01 = "$(Asible)/03. Udemy-HandsOn-Training"
 
 run-00-win:
 	cd $(Chapter00) && make default-task-win
@@ -49,3 +52,7 @@ run-03-mac:
 
 run-03-linux:
 	cd $(Chapter03) && make default-task-linux
+
+
+run-linux-00:
+	cd $(LChapter03) && make run

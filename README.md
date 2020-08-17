@@ -22,3 +22,13 @@ ansible-testing
 `make run-{chapter}-{os}`
 For example, chapter 00, windows:
 `make run-00-win` -> Will run `00. Install Ansible\makefile` with defaultTask
+
+## Linux folder run
+
+`make run-linux-00`
+
+Will run make file run in the [Linux Setup folder](/linux-setups)
+
+`make git-clean-get`
+
+Will get all new pulls from git cleanly.
