@@ -9,3 +9,6 @@ default-task-linux:
 
 default-task-mac:
 	make run
+
+clean-get:
+	cd .. && cd .. && make git-clean-get
