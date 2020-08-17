@@ -1,4 +1,5 @@
 sudo apt-get install fonts-powerline
+sudo apt install net-tools
 sudo install wget
 sudo install curl
 sudo apt update
