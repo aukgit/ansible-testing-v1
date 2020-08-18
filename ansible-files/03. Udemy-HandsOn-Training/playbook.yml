@@ -32,7 +32,7 @@
         enabled: yes # on restart service will be started automatically.
 
     - name: Create Application Database
-      mysql_db: name=employee_db state=present #present means???
+      mysql_db: name=employee_db state=present # present means???
 
     - name: Create Application Database user
       mysql_user:
