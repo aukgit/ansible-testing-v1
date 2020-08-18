@@ -6,3 +6,6 @@ run-centos:
 
 clean-get:
 	cd .. && cd .. && make git-clean-get
+
+run:
+	yes | sudo sh ./install-zsh.sh
