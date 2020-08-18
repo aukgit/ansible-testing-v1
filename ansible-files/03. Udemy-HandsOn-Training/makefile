@@ -12,3 +12,6 @@ default-task-mac:
 
 clean-get:
 	cd .. && cd .. && make git-clean-get
+
+target1-ping:
+	ansible utarget1 -m ping -i inventory.txt

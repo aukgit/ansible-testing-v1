@@ -1,4 +1,5 @@
 [ubuntu_servers]
-ubuntu_server1 ansible_host=192.168.0.111 ansible_user=a ansible_ssh_pass=a
-ubuntu_server2 ansible_host=192.168.0.112 ansible_user=a ansible_ssh_pass=a
-centOs_server3 ansible_host=192.168.0.10 ansible_user=osboxes ansible_ssh_pass=TgbTgb6543$
+# ubuntu_server1 ansible_host=192.168.0.111 ansible_user=a ansible_ssh_pass=a
+# ubuntu_server2 ansible_host=192.168.0.112 ansible_user=a ansible_ssh_pass=a
+# centOs_server3 ansible_host=192.168.0.10 ansible_user=osboxes ansible_ssh_pass=TgbTgb6543$
+utarget1 ansible_host=192.168.0.111 ansible_user=a ansible_ssh_pass=a
