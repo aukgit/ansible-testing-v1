@@ -15,3 +15,9 @@ clean-get:
 
 target1-ping:
 	ansible utarget1 -m ping -i inventory.txt
+
+target2-ping:
+	ansible utarget1 -m ping -i inventory.txt
+
+targets-ping:
+	ansible ubuntu_servers -m ping -i inventory.txt
