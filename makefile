@@ -86,7 +86,7 @@ ins-li-ch-zsh:
 	chsh -s `which zsh`
 
 cp-zsh:
-	yes | cp -rf "$(LChapter01)/.zshrc" ~/
+	cd $(LChapter01) && yes | cp -rf .zshrc ~/
 	cat ~/.zshrc
 	pwd
 	
