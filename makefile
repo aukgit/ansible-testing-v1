@@ -89,4 +89,4 @@ cp-zsh:
 	cd $(LChapter01) && yes | cp -rf .zshrc ~/
 	cat ~/.zshrc
 	pwd
-	
+	source ~/.zshrc
