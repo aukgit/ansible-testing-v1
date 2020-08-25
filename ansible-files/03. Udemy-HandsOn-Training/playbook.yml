@@ -5,7 +5,6 @@
       ping: 
 
     - name: Install Python (setup tools, build essential, pip, git) required dependencies
-      become: true
       # become_method: sudo
       apt:
         pkg:
