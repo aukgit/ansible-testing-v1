@@ -1,11 +1,11 @@
 run:
-	yes | sudo sh ./install-zsh.sh
+	yes | sh ./install-zsh.sh
 
 run-centos:
-	yes | sudo sh ./install-zsh-centos.sh
+	yes | sh ./install-zsh-centos.sh
 
 clean-get:
 	cd .. && cd .. && make git-clean-get
 
 run:
-	yes | sudo sh ./install-zsh.sh
+	yes | sh ./install-zsh.sh
