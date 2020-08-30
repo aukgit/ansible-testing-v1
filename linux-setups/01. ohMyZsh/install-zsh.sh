@@ -4,7 +4,7 @@ sudo install wget
 sudo install curl
 sudo apt update
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-apt-get install build-essential libssl-dev
+sudo apt-get install build-essential libssl-dev
 sudo apt install zsh
 pwd
 yes | cp -rf .zshrc ~/.zshrc
